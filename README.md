@@ -71,6 +71,7 @@ Three types of screen are available:
 	- select CPPM stubborn, always 300.  
 	- select number of maximum channels, 8, 10, 12 or 16 (prefer 8).  
 	- select RCUL channel (channel used for transmit RCUL/X-Any orders to the compatibles modules).  
+	- select number of repeats 0 to 6.  
 	SBUS:
 	- select SBUS speed (NORMAL or QUICK).  
-	
+	- select 
