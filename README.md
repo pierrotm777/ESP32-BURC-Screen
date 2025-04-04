@@ -1,14 +1,7 @@
 # ESP32-BURC-Screen
 This touch screen allows you to control systems compatible with the protocol [RCUL](https://p-loussouarn-free-fr.translate.goog/arduino/exemple/RCUL/RCUL.html?_x_tr_sch=http&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en) (Universal RC Box System).  
 
-<table border="2">
-<tr>
-<td><img src="https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/RCUL.jpg" border="0"/></td>
-</tr>
-</table>
-
-
-
+![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/RCUL.jpg)  
 
 It's based on an LVGL compatible touchscreen, managed by an ESP32-S3.  
 
