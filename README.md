@@ -45,3 +45,11 @@ Connections to do between the screen and your handset:
 - CPPM output or SBUS output to J2-17.  
 - CPPM input or SBUS input to ESP32-S3 pin 18 (not use J2-18).  
 
+## Your handset
+Not all Handset/Receiver system are compatible. 
+Your handset need to have a **trainer input as Master**.  
+We have tried several RC systems:  
+- All **Frsky** receivers X or D8 or D16.  
+- **Flysky** FS-ia6B or FS-ia10B.  
+- **Spektrum** AR6610T.  
+- **Hitec** Optima 7.  
