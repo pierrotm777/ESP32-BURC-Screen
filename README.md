@@ -25,12 +25,12 @@ But all the modules below are compatible with this screen:
 
 ## Appearance
 It's based on an LVGL compatible touchscreen, managed by an ESP32-S3.  
-<table border="2">
-<tr>
-<td><img src="https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Top.png" border="0"/></td>
-<td><img src="https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Bottom.png" border="0"/></td>
-</tr>
-</table>
+	<table border="2">
+	<tr>
+	<td><img src="https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Top.png" border="0"/></td>
+	<td><img src="https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Bottom.png" border="0"/></td>
+	</tr>
+	</table>
 
 ## Schematic
   
@@ -38,5 +38,5 @@ It's based on an LVGL compatible touchscreen, managed by an ESP32-S3.
 ## How to wire the screen
 For use this screen, you need a compatible SBUS or PPM handset.  
 The screen use the trainer feature for transmit its orders.  
-![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Wirings.png)
+![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Connections.png)
 
