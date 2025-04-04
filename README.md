@@ -53,3 +53,10 @@ We have tried several RC systems:
 - **Flysky** FS-ia6B or FS-ia10B.  
 - **Spektrum** AR6610T.  
 - **Hitec** Optima 7.  
+
+## Screen's features
+Three types of screen are available:  
+- screen with 8 buttons.  
+- screen with 16 buttons.  
+- custom screen (3type of buttons).  
+- Teensy screen (used for command the [Teensy sound module](https://github.com/pierrotm777/SoundModule_Teensy4.0-version)).  
