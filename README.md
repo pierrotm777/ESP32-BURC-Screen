@@ -38,5 +38,10 @@ It's based on an LVGL compatible touchscreen, managed by an ESP32-S3.
 ## How to wire the screen
 For use this screen, you need a compatible SBUS or PPM handset.  
 The screen use the trainer feature for transmit its orders.  
-![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Connections.png)
+![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Connections.png)  
+Connections to do between the screen and your handset:  
+- +5v just before the diode.  
+- GND to J2-GND.  
+- CPPM output or SBUS output to J2-17.  
+- CPPM input or SBUS input to ESP32-S3 pin 18 (not use J2-18).  
 
