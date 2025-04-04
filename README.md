@@ -11,8 +11,8 @@ Thanks to him :-)
 It's based on an LVGL compatible touchscreen, managed by an ESP32-S3.  
 <table border="2">
 <tr>
-<td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw_Top.jpg" border="0"/></td>
-<td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw_Bottom.jpg" border="0"/></td>
+<td><img src="https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Top.png" border="0"/></td>
+<td><img src="https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Bottom.png" border="0"/></td>
 </tr>
 </table>
 
