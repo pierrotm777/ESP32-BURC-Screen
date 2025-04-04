@@ -7,15 +7,6 @@ This touch screen allows you to control systems compatible with the protocol [RC
 The program managing this screen was entirely created by croby-b.  
 Thanks to him :-)  
 
-## Appearance
-It's based on an LVGL compatible touchscreen, managed by an ESP32-S3.  
-<table border="2">
-<tr>
-<td><img src="https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Top.png" border="0"/></td>
-<td><img src="https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Bottom.png" border="0"/></td>
-</tr>
-</table>
-
 ## Compatibles modules usable with BURC
 This screen was developed specifically to control the [Teensy 4.0 based sound module](https://github.com/pierrotm777/SoundModule_Teensy4.0-version).  
 
@@ -30,6 +21,18 @@ But all the modules below are compatible with this screen:
   * [Hall I2C sensor mini](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/Capteur_Hall_I2C_Mini)  
 - [MultiSwitch_MosFet](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/MultiSwitch_MosFet)  
 - [Ms8 Pulseq](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/PulseSeq) 
-- [Servo 360°]() 
+- [Servo 360°]()  
+
+## Appearance
+It's based on an LVGL compatible touchscreen, managed by an ESP32-S3.  
+<table border="2">
+<tr>
+<td><img src="https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Top.png" border="0"/></td>
+<td><img src="https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Bottom.png" border="0"/></td>
+</tr>
+</table>
+
+## Schematic
+![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Shematic.png) 
 
 
