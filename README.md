@@ -24,13 +24,13 @@ All the modules below are compatible with this screen:
 - [Servo 360°]()  
 
 ## Appearance
-It's based on an LVGL compatible touchscreen, managed by an ESP32-S3.  
-	<table border="2">
-	<tr>
-	<td><img src="https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Top.png" border="0"/></td>
-	<td><img src="https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Bottom.png" border="0"/></td>
-	</tr>
-	</table>
+It's based on an LVGL compatible touchscreen 4.3" 480x272 pixels ([UEDX80480043E-WB-A-4.3-480x272](https://viewedisplay.com/product/esp32-4-3-inch-800x480-rgb-ips-tft-display-touch-screen-arduino-lvgl/)), managed by an ESP32-S3.  
+<table border="2">
+<tr>
+<td><img src="https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Top.png" border="0"/></td>
+<td><img src="https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Bottom.png" border="0"/></td>
+</tr>
+</table>
 
 ## Schematic
 ![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Shematic.png)  
