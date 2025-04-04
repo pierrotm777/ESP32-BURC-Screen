@@ -58,5 +58,7 @@ We have tried several RC systems:
 Three types of screen are available:  
 - screen with 8 buttons.  
 - screen with 16 buttons.  
-- custom screen (3type of buttons).  
+- custom screen (3 types of buttons).  
 - Teensy screen (used for command the [Teensy sound module](https://github.com/pierrotm777/SoundModule_Teensy4.0-version)).  
+- 10 models.
+- models and screen configuration are saved on a sd card (4GB by example).  
