@@ -13,7 +13,7 @@ This touch screen allows you to control systems compatible with the protocol [RC
 It's based on an LVGL compatible touchscreen, managed by an ESP32-S3.  
 
 ## Credits
-The program managing this screen was entirely created by c_croby.  
+The program managing this screen was entirely created by croby-b.  
 Thanks to him :-)  
 
 ## Compatibles modules usable with BURC
