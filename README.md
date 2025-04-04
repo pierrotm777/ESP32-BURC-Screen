@@ -3,11 +3,18 @@ This touch screen allows you to control systems compatible with the protocol [RC
 
 ![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/RCUL.jpg)  
 
-It's based on an LVGL compatible touchscreen, managed by an ESP32-S3.  
-
 ## Credits
 The program managing this screen was entirely created by croby-b.  
 Thanks to him :-)  
+
+## Appearance
+It's based on an LVGL compatible touchscreen, managed by an ESP32-S3.  
+<table border="2">
+<tr>
+<td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw_Top.jpg" border="0"/></td>
+<td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw_Bottom.jpg" border="0"/></td>
+</tr>
+</table>
 
 ## Compatibles modules usable with BURC
 This screen was developed specifically to control the [Teensy 4.0 based sound module](https://github.com/pierrotm777/SoundModule_Teensy4.0-version).  
