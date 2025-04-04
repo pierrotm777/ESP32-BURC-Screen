@@ -71,7 +71,7 @@ Three types of screen are available:
 	- select CPPM modulation, **NEG** or **POS**.  
 	- select CPPM stubborn, always 300.  
 	- select number of maximum channels, 8, 10, 12 or 16 (prefer 8).  
-	- select RCUL(1) channel (channel used for transmit RCUL/X-Any orders to the compatibles modules).  
+	- select RCUL channel (channel used for transmit RCUL/X-Any orders to the compatibles modules).  
 	- select number of repeats 0 to 6.  
 
 	SBUS:
@@ -81,15 +81,26 @@ Three types of screen are available:
 - select witch type of screen.  
 	SCREEN 1 type:
 	- select MOM, PERM or MOM/PERM (MOM=TEMPORARY, PERM=PERMANENT, MOM/PERM=TEMPORARY and PERMANENT).  
-	- select message type (C1_C8, C1-C8_ANA, C1_C16, TEENSY, CUSTOM).
-	- this screen use the RCUL(1) message on RCUL.VOIE(1) channel.  
+	- select message type (C1_C8, C1-C8_ANA, C1_C16, TEENSY, **CUSTOM**).
+	- this screen use the RCUL message on RCUL.VOIE(1) channel.  
 
 	SCREEN 2 type:
 	- select MOM, PERM or MOM/PERM (MOM=TEMPORARY, PERM=PERMANENT, MOM/PERM=TEMPORARY and PERMANENT).  
-	- select message type (C1_C8, C1-C8_ANA, C1_C16, TEENSY, CUSTOM).  
-	- this screen use the RCUL2 message on RCUL2.VOIE channel.  
+	- select message type (C1_C8, C1-C8_ANA, C1_C16, TEENSY).  
+	- this screen use:
+		- the RCUL2 message on RCUL2.VOIE channel.  
+		- the RCUL3 message on RCUL3.VOIE channel (AXE X/Y).  
+		- the RCUL4 message on RCUL4.VOIE channel (AXE X2/Y2).  
+	- if TEENSY in use:  
+		- the RCUL5 message use RCUL5.VOIE channel:
+		for On/Off commands, motor, fog, anchor, ambient and smoke.  
+		for slider commands, volume.  
+		
 	
 	SCREEN CUSTOM type:
-	- select MOM, PERM or MOM/PERM (MOM=TEMPORARY, PERM=PERMANENT, MOM/PERM=TEMPORARY and PERMANENT).  
-	- select message type (C1_C8, C1-C8_ANA, C1_C16, TEENSY, CUSTOM).  
-	- this screen use the RCUL2 message on RCUL2.VOIE channel.  
+	- select type for each button (BUTTON, TOGGLE, SWITCH). 
+	- select slider or not.  
+	- this screen use the RCUL1 message on RCUL6.VOIE channel.  
+	**Only usable with the SCREEN 1**.  
+	
+	
