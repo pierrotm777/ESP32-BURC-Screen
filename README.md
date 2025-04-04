@@ -33,6 +33,10 @@ It's based on an LVGL compatible touchscreen, managed by an ESP32-S3.
 </table>
 
 ## Schematic
-![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Shematic.png) 
+  
 
+## How to wire the screen
+For use this screen, you need a compatible SBUS or PPM handset.  
+The screen use the trainer feature for transmit its orders.  
+![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Wirings.png)
 
