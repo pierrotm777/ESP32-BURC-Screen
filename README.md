@@ -94,7 +94,7 @@ Three types of screen are available:
 	- if TEENSY in use:  
 		- the RCUL5 message use RCUL5.VOIE channel:  
 		for On/Off commands, motor, fog, anchor, ambient and smoke.  
-		for slider commands, volume.  
+		for slider command, volume.  
 		
 	
 	SCREEN CUSTOM type:
