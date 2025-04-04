@@ -12,7 +12,7 @@ This touch screen allows you to control systems compatible with the protocol [RC
 
 It's based on an LVGL compatible touchscreen, managed by an ESP32-S3.  
 
-##Credits
+## Credits
 The program managing this screen was entirely created by c_croby.  
 Thanks to him :-)  
 
