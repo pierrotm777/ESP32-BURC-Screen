@@ -83,18 +83,22 @@ Three types of screen are available:
 	- select MOM, PERM or MOM/PERM (MOM=TEMPORARY, PERM=PERMANENT, MOM/PERM=TEMPORARY and PERMANENT).  
 	- select message type (C1_C8, C1-C8_ANA, C1_C16, TEENSY, **CUSTOM**).
 	- this screen use the RCUL message on RCUL.VOIE(1) channel.  
+![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Config_Screen1.png) 
 
 	SCREEN 2 type:
 	- select MOM, PERM or MOM/PERM (MOM=TEMPORARY, PERM=PERMANENT, MOM/PERM=TEMPORARY and PERMANENT).  
 	- select message type (C1_C8, C1-C8_ANA, C1_C16, TEENSY).  
 	- this screen use:
 		- the RCUL2 message on RCUL2.VOIE channel.  
+![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Config_Screen2.png) 
 		- the RCUL3 message on RCUL3.VOIE channel (AXE X/Y).  
 		- the RCUL4 message on RCUL4.VOIE channel (AXE X2/Y2).  
+![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Config_Screen1.png) 
 	- if TEENSY in use:  
 		- the RCUL5 message use RCUL5.VOIE channel:  
 		for *On/Off* commands, motor, fog, anchor, ambient and smoke.  
 		for *slider* command, volume.  
+![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_TEENSY.png) 
 
 	SCREEN CUSTOM type:
 	- select type for each button (BUTTON, TOGGLE, SWITCH). 
