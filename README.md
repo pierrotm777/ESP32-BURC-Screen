@@ -62,3 +62,15 @@ Three types of screen are available:
 - Teensy screen (used for command the [Teensy sound module](https://github.com/pierrotm777/SoundModule_Teensy4.0-version)).  
 - 10 models.
 - models and screen configuration are saved on a sd card (4GB by example).  
+
+## How to configure the screen
+- select the **parameters** button on top left.  
+- select with protocol you want to use, **CPPM_OUT** or **SBUS_OUT**.  
+	CPPM:
+	- select CPPM modulation, **NEG** or **POS**.  
+	- select CPPM stubborn, always 300.  
+	- select number of maximum channels, 8, 10, 12 or 16 (prefer 8).  
+	- select RCUL channel (channel used for transmit RCUL/X-Any orders to the compatibles modules).  
+	SBUS:  
+	- select SBUS speed (NORMAL or QUICK).  
+	
