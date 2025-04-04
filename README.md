@@ -92,7 +92,7 @@ Three types of screen are available:
 		- the RCUL3 message on RCUL3.VOIE channel (AXE X/Y).  
 		- the RCUL4 message on RCUL4.VOIE channel (AXE X2/Y2).  
 	- if TEENSY in use:  
-		- the RCUL5 message use RCUL5.VOIE channel:
+		- the RCUL5 message use RCUL5.VOIE channel:  
 		for On/Off commands, motor, fog, anchor, ambient and smoke.  
 		for slider commands, volume.  
 		
