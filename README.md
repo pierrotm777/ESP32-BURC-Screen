@@ -57,22 +57,39 @@ We have tried several RC systems:
 ## Screen's features
 Three types of screen are available:  
 - screen with 8 buttons.  
+- screen with 8 buttons + 1 slider. 
 - screen with 16 buttons.  
 - custom screen (3 types of buttons).  
 - Teensy screen (used for command the [Teensy sound module](https://github.com/pierrotm777/SoundModule_Teensy4.0-version)).  
 - 10 models.
-- models and screen configuration are saved on a sd card (4GB by example).  
+- models and screen configurations are saved on a sd card (4GB by example).  
 
 ## How to configure the screen
 - select the **parameters** button on top left.  
-- select with protocol you want to use, **CPPM_OUT** or **SBUS_OUT**.  
+- select witch protocol you want to use, **CPPM_OUT** or **SBUS_OUT**.  
 	CPPM:
 	- select CPPM modulation, **NEG** or **POS**.  
 	- select CPPM stubborn, always 300.  
 	- select number of maximum channels, 8, 10, 12 or 16 (prefer 8).  
-	- select RCUL channel (channel used for transmit RCUL/X-Any orders to the compatibles modules).  
+	- select RCUL(1) channel (channel used for transmit RCUL/X-Any orders to the compatibles modules).  
 	- select number of repeats 0 to 6.  
 
 	SBUS:
 	- select SBUS speed (NORMAL or QUICK).  
-	- select 
+	- select number of repeats 0 to 6.  
+	
+- select witch type of screen.  
+	SCREEN 1 type:
+	- select MOM, PERM or MOM/PERM (MOM=TEMPORARY, PERM=PERMANENT, MOM/PERM=TEMPORARY and PERMANENT).  
+	- select message type (C1_C8, C1-C8_ANA, C1_C16, TEENSY, CUSTOM).
+	- this screen use the RCUL(1) message on RCUL.VOIE(1) channel.  
+
+	SCREEN 2 type:
+	- select MOM, PERM or MOM/PERM (MOM=TEMPORARY, PERM=PERMANENT, MOM/PERM=TEMPORARY and PERMANENT).  
+	- select message type (C1_C8, C1-C8_ANA, C1_C16, TEENSY, CUSTOM).  
+	- this screen use the RCUL2 message on RCUL2.VOIE channel.  
+	
+	SCREEN CUSTOM type:
+	- select MOM, PERM or MOM/PERM (MOM=TEMPORARY, PERM=PERMANENT, MOM/PERM=TEMPORARY and PERMANENT).  
+	- select message type (C1_C8, C1-C8_ANA, C1_C16, TEENSY, CUSTOM).  
+	- this screen use the RCUL2 message on RCUL2.VOIE channel.  
