@@ -3,8 +3,9 @@ This touch screen allows you to control systems compatibles with the protocol [R
 ![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/RCUL.jpg)  
 
 ## Credits
-The program managing this screen was entirely created by croby-b.  
-Thanks to him :-)  
+RCUL is a protocol created by [Rc-Navy](http://p.loussouarn.free.fr/).  
+The Sotware managing this screen was entirely created by croby-b.  
+Thanks to them :-)  
 
 ## Compatibles modules usable with BURC
 This screen was developed specifically to control the [Teensy 4.0 based sound module](https://github.com/pierrotm777/SoundModule_Teensy4.0-version).  
@@ -24,7 +25,7 @@ All the modules below are compatible with this screen:
 - [Servo 360°]()  
 
 ## Appearance
-It's based on an LVGL compatible touchscreen 4.3" 480x272 pixels ([UEDX80480043E-WB-A-4.3-480x272](https://viewedisplay.com/product/esp32-4-3-inch-800x480-rgb-ips-tft-display-touch-screen-arduino-lvgl/)), managed by an ESP32-S3.  
+It's based on an LVGL compatible touchscreen 4.3" 800x480 pixels ([Model：DX80480043E-WB-A](https://viewedisplay.com/product/esp32-4-3-inch-800x480-rgb-ips-tft-display-touch-screen-arduino-lvgl/)), managed by an ESP32-S3.  
 <table border="2">
 <tr>
 <td><img src="https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Screen_Top.png" border="0"/></td>
