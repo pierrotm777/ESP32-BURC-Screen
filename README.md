@@ -114,4 +114,6 @@ Download the Espressif [Flash Dowload Tool](https://dl.espressif.com/public/flas
 ![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Firmware/ESP32-UART.png)  
 - Select the four files, bootloader, partitions, boot_app, ino.bin.
 ![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Firmware/Upload_ESP32_Firmware.png)  
+- Select com port and 921600 bauds and click on START button.  
+- Shutdown screen and restart it again.  
 
