@@ -107,4 +107,7 @@ Three types of screen are available:
 	- this screen use the RCUL1 message on RCUL6.VOIE channel.  
 	**Only usable with the SCREEN 1**.  
 	
-	
+## Upload firmware
+You need to download a [ESP32 downloader](https://github.com/VIEWESMART/UEDX80480043ESP32-4.3inch-Touch-Display/tree/main/tools/flash_download_tool_3.9.5).  
+Download the screen firmware [here]().  
+
