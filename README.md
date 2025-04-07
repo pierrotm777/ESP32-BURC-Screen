@@ -110,7 +110,7 @@ Three types of screen are available:
 ## Upload firmware
 Download the Espressif [Flash Dowload Tool](https://dl.espressif.com/public/flash_download_tool.zip).  
 - Open the flash_download_tool_3.9.8_w1.exe.  
-- Select ESP32S3 and com port as **UART**.  
+- Select ESP32S3 and **UART**.  
 ![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Firmware/ESP32-UART.png)  
 - Select the four files, bootloader, partitions, boot_app, ino.bin.
 ![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Firmware/Upload_ESP32_Firmware.png)  
