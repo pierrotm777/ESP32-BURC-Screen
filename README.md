@@ -108,6 +108,10 @@ Three types of screen are available:
 	**Only usable with the SCREEN 1**.  
 	
 ## Upload firmware
-You need to download a [ESP32 downloader](https://github.com/VIEWESMART/UEDX80480043ESP32-4.3inch-Touch-Display/tree/main/tools/flash_download_tool_3.9.5).  
-Download the screen firmware [here]().  
+Download the Espressif [Flash Dowload Tool](https://dl.espressif.com/public/flash_download_tool.zip).  
+- Open the flash_download_tool_3.9.8_w1.exe.  
+- Select ESP32S3 and com port as **UART**.  
+![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Firmware/ESP32-UART.png)  
+- Select the four files, bootloader, partitions, boot_app, ino.bin.
+![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Firmware/Upload_ESP32_Firmware.png)  
 
