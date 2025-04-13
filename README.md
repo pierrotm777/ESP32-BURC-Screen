@@ -117,3 +117,5 @@ Download the Espressif [Flash Dowload Tool](https://dl.espressif.com/public/flas
 - Select com port and 921600 bauds and click on START button.  
 - Shutdown screen and restart it again.  
 
+## Cas for this screen
+You will find a case build by croby-b [here](https://github.com/pierrotm777/ESP32-BURC-Screen). 
