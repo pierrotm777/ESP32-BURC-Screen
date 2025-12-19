@@ -124,7 +124,7 @@ You will find a case build by croby-b [here](https://github.com/pierrotm777/ESP3
 # ESPNOW (Wifi) feature
 With the version 1.8, it's now possible to read some information from the sound module Teensy over a wifi connection.  
 This feature use a little [ESP32C3 LCD board](https://www.google.com/search?client=firefox-b-d&q=ESP32C3+LCD).  
-This board must be connected:
+This board must be connected:  
   - behind Teensy on pins **+3,3v, GND and PIN 29** ![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Teensy_Serial7.png).  
   - behind the ESP32 C3 on pins **+3,3v, GND and PIN RX** ![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/ESP32C3.png).  
 
