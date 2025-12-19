@@ -119,4 +119,9 @@ Download the Espressif [Flash Dowload Tool](https://dl.espressif.com/public/flas
 - Shutdown screen and restart it again.  
 
 ## Case for this screen
-You will find a case build by croby-b [here](https://github.com/pierrotm777/ESP32-BURC-Screen). 
+You will find a case build by croby-b [here](https://github.com/pierrotm777/ESP32-BURC-Screen).  
+
+# ESPNOW (Wifi) feature
+With the version 1.8, it's now possible to read some information from the sound module Teensy over a wifi connection.  
+This feature use a little [ESP32C3 LCD board](https://www.google.com/search?client=firefox-b-d&q=ESP32C3+LCD).  
+This board must be connected to the Teensy on the pins ![+3,3v, GND and PIN 28]().  
