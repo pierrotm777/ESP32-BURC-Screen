@@ -111,7 +111,7 @@ Three types of screen are available:
 Download the Espressif [Flash Dowload Tool](https://dl.espressif.com/public/flash_download_tool.zip).  
 - Open the flash_download_tool_3.9.8_w1.exe.  
 - Donwload the firmware [here](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Firmware_ESP32S3_screen/BURC_ESP32TS_CROKY_B_Version1_4_5.zip)  
-- Select ESP32S3 and **UART**.  
+- Select *ESP32S3* and *UART*.  
 ![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Firmware_ESP32S3_screen/ESP32-UART.png)  
 - Select the four files, bootloader, partitions, boot_app, ino.bin.
 ![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Firmware_ESP32S3_screen/Upload_ESP32_Firmware.png)  
@@ -124,4 +124,8 @@ You will find a case build by croby-b [here](https://github.com/pierrotm777/ESP3
 # ESPNOW (Wifi) feature
 With the version 1.8, it's now possible to read some information from the sound module Teensy over a wifi connection.  
 This feature use a little [ESP32C3 LCD board](https://www.google.com/search?client=firefox-b-d&q=ESP32C3+LCD).  
-This board must be connected to the Teensy on the pins ![+3,3v, GND and PIN 28]().  
+This board must be connected to the Teensy on the pins ![+3,3v, GND and PIN 28](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Teensy_Serial7.png).  
+## Firmware ESPNOW feature
+Use the same methode for the ESP32 screen.
+  - Select *ESP32C3* and *UART*.  
+  - Use firmware files [here](https://github.com/pierrotm777/ESP32-BURC-Screen/tree/main/Firmware_ESP32C3_interface).  
