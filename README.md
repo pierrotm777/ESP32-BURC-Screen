@@ -127,7 +127,7 @@ This feature use a little [ESP32C3 LCD board](https://www.google.com/search?clie
 This board must be connected:  
   - behind Teensy on pins **+3,3v, GND and PIN 29**  
   ![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/Teensy_Serial7.png)  
-  - behind the ESP32 C3 on pins **V3 (+3.3v), GD(GND) and PIN RX**  
+  - behind the ESP32 C3 on pins **V3 (+3.3v), GD(GND) and PIN 4**  
   ![](https://github.com/pierrotm777/ESP32-BURC-Screen/blob/main/ESP32C3.png)  
 
 ## Firmware ESPNOW feature
